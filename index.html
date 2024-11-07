@@ -16,30 +16,56 @@
             </a>
         </div>
         <ul class="nav-links">
-            <li class="link"><a href="#">Home</a></li>
-            <li class="link"><a href="#">Projects</a></li>
-            <li class="link"><a href="#">Tehnologies</a></li>
-            <li class="link"><a href="#">Features</a></li>
-            <li class="link"><a href="#">About me</a></li>
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about-me">About me</a></li>
+            <li class="link"><a href="#technologies">Tehnologies</a></li>
+            <li class="link"><a href="#projects">Projects</a></li>
         </ul>
-        <button class="button">Contact me</button>   
+        <a href="#contact" class="button">Contact me</a>   
     </nav>
-    <header class="container">
+    <header id="home" class="container">
         <div class="content">
             <span class="blur"></span>
             <span class="blur"></span>
             <h4>WELCOME TO THE SITE</h4>
             <h1>Hi, I'm <span>Josip</span>, entry level programer</h1><span></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae turpis fermentum,
-            imperdiet purus nec, pellentesque est. Pellentesque pellentesque congue tortor vel hendrerit. 
-            Nullam volutpat, elit at porta viverra, libero lorem porttitor magna, eu interdum nulla sem ut quam.</p>
+            <p>On this page you can find information about me, my projects and the things i have learned trough my life and the experience i have gathered as a student. 
+            </p>
         </div>
         <div class="image">
             <img src="pictures/header2.png" alt="">
         </div>
     </header>
+    
 
-    <section class="container">
+    <section id="about-me" class="container">
+        <h2 class="header">About me</h2>
+        <div class="about-me-box">
+            <div class="about-image">
+                <img src="pictures/profile2.jpeg" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <h3>Josip - Entry Level Programer</h3>
+                <p>&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    I am a hardworking individual and a good team player as shown by my past experiences 
+                    working in teams.
+                </p>
+                <p>&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    I have bachelor's degree in computer engineering 
+                    from the University department of professional studies
+                    in Split. My hobbies include programming, front-end web development,
+                    back-end web development, game development in Unity and many more.
+                </p>
+
+                <p>&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Throughout the tree year undergraduate studies i have learned a lot about programming languages,
+                    web development, working with databases, object oriented programming, data structures and algorithms.
+                </p>
+                <p>&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    In the next chapter you can see all of the technologies i had encounter with.
+                </p>
+            </div>
+        </div><!--
         <h2 class="header">Features</h2>
         <div class="features">
             <div class="card">
@@ -66,19 +92,18 @@
                 <p>My education and some information about my way to where I am and where I'm heading</p>
                 <a href="#">About me <i class="ri-arrow-right-circle-fill"></i></a>
             </div>
-        </div>
+        </div>-->
     </section>
-    <section class="container">
+    <section id="technologies" class="container">
         <span class="spacing"></span>
-        <h2 class="header">Tehnologies</h2>
+        <h2 class="header">Technologies</h2>
         <p class="sub-header">
-            All Programming Languages and IDEs that i had encounter
-            with and my opinions on each</p>
+            All Programming Languages and frameworks that i had encounter with and used for projects.</p>
         <div class="features">
             <div class="card">
                 <span><i class="ri-code-line"></i></span>
                 <h4>C</h4>
-                <p>First Programming Language i had encounter with.</p>
+                <p>First Programming Language i had encounter with</p>
             </div>
             <div class="card">
                 <span><i class="ri-braces-line"></i></span>
@@ -89,42 +114,89 @@
             <div class="card">
                 <span><i class="ri-brackets-line"></i></span>
                 <h4>Python</h4>
-                <p>A high-level Language that i had two courses of ,
-                    easy to get going</p>
+                <p>Used for web development with Django framework, combined with HTML and CSS</p>
             </div>
             <div class="card">
                 <span><i class="ri-javascript-line"></i></span>
-                <h4>Java Script</h4>
-                <p>Confusing at first but with time i got used to it</p>
+                <h4>JavaScript</h4>
+                <p>Creating dynamic and interactive web pages for users</p>
             </div>
             <div class="card">
                 <span><i class="ri-bug-line"></i></span>
                 <h4>Java</h4>
-                <p>Curently learning it at the 3rd year</p>
+                <p>In combination with Springboot framework, used for web applications</p>
             </div>
             <div class="card">
                 <span><i class="ri-bug-line"></i></span>
-                <h4>Spyder-IDE</h4>
-                <p>First python course we were using this IDE</p>
+                <h4>C#</h4>
+                <p>Used for game development in Unity</p>
             </div>
             <div class="card">
                 <span><i class="ri-bug-line"></i></span>
-                <h4>Visual Studio</h4>
-                <p>A classic in its own right. Used it for C/C++</p>
+                <h4>VS, VS Code, IntelliJ</h4>
+                <p>IDE-s for C/C++, C# and Java</p>
             </div>
             <div class="card">
                 <span><i class="ri-bug-line"></i></span>
-                <h4>VS Code</h4>
-                <p>For most off what we did in css , html and JS (using it for this site XD)</p>
+                <h4>MySQL</h4>
+                <p>Database for Java web applications in Springboot</p>
             </div>
-
-
-
-
         </div>
     </section>
-        
+    <section id="projects" class="container">
+        <span class="spacing"></span>
+        <h2 class="header">Projects</h2>
+        <p class="sub-header">
+            Here are some of the projects i have worked on and all of them can be sean on my github profile</p>
+        <div class="features">
+            <div class="card">
+                <span class="ri-car-line"></span>
+                <h4>Car Pazar</h4>
+                <p>Web application made using Java and Spring Boot. Serves as a web catalog where you can find many car listings and connect with sellers. Or you can place your own car listing.</p>
+                <a href="https://github.com/Jole56/CarPazar" target="_blank">
+                    <i class="ri-github-fill"></i> GitHub Repository
+                </a>
+            </div>
+            <div class="card">
+                <span class="ri-database-2-fill"></span>
+                <h4>SQL seminar</h4>
+                <p>Seminar about normal forms. This application has options to input your functional dependencies, normalize using 1st, 2nd, 3rd or BCNF or find candidates for primary key.</p>
+                <a href="https://github.com/Jole56/SQL_seminar" target="_blank">
+                    <i class="ri-github-fill"></i> GitHub Repository
+                </a>
+            </div>
+            <div class="card">
+                <span class="ri-ancient-gate-fill"></span>
+                <h4>RTS game</h4>
+                <p>RTS game developed in Unity. Features include resource system, building system, army training and control, combat with enemies.</p>
+                <a href="https://github.com/Jole56/RTSgame" target="_blank">
+                    <i class="ri-github-fill"></i> GitHub Repository
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="header">Contact Me</h2>
+        <p class="sub-header">Feel free to reach out to me via the following methods:</p>
+        <br>
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p><a href="mailto:josipbrnas1@gmail.com">josipbrnas1@gmail.com</a></p>
     
+                <h3>Phone</h3>
+                <p><a href="tel:0976121773">+0976121773</a></p>
+    
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/josip-brnas-63380929a/" target="_blank">LinkedIn Profile</a></p>
+    
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/Jole56" target="_blank">GitHub Profile</a></p>
+            </div>
+        </div>
+    </section>
+
    <script src="script.js"></script>
     
 </body>
