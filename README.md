@@ -1,2 +1,2 @@
 # portfolio
-Github page: [https://jole56.github.io/portfolio/](https://josipbrnas.com/)
+Github page: https://josipbrnas.com/
