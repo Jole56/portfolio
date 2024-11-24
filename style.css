@@ -207,6 +207,8 @@ section {
 .features .card a{
     color: #ffffff;
     transition: all 0.3s ease;
+    align-self: flex-end;
+    margin-top: 1rem;
 }
 
 .features .card a:hover{
